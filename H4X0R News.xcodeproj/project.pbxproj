@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		49AE7C4C2F9B687C00633D92 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 49AE7C4A2F9B687300633D92 /* readme.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4976FDBA2F9A13A7002D3DE9 /* H4X0R News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AE7C4A2F9B687300633D92 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		4976FDB12F9A13A7002D3DE9 = {
 			isa = PBXGroup;
 			children = (
+				49AE7C4A2F9B687300633D92 /* readme.md */,
 				4976FDBC2F9A13A7002D3DE9 /* H4X0R News */,
 				4976FDBB2F9A13A7002D3DE9 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49AE7C4C2F9B687C00633D92 /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
